@@ -660,15 +660,16 @@ main .hero-footer {
 }
 
 .list {
-    position: relative;
-    padding: 2rem 3rem;
-    margin-bottom: 8rem;
-    width: 67%;
-    max-width: 100%;
-    height: 100%;
+	position: relative;
+	padding: 2rem 18rem;
+	margin-bottom: 8rem;
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
 }
 
 .list::before {
+	z-index: -1;
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -678,8 +679,10 @@ main .hero-footer {
 	background-image: url("./assets/logo-solo.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 30rem;
-	opacity: 0.3;
+	max-width: 100%;
+	height: 100%;
+	background-size: 32rem;
+	opacity: 0.2;
 }
 
 .p-barra4 {
@@ -694,6 +697,7 @@ main .hero-footer {
 }
 
 .section-faq {
+	z-index: 10;
 	position: relative;
 	background-image: url("./assets/luke-chesser-CxBx_J3yp9g-unsplash@2x.png");
 	background-position: center;
@@ -723,6 +727,7 @@ main .hero-footer {
 }
 
 .section-faq h2 {
+	z-index: 10;
 	font-size: 6.4rem;
 	margin-top: 12.1rem;
 	line-height: 7.9rem;
@@ -731,14 +736,16 @@ main .hero-footer {
 }
 
 .section-faq h1 {
+	z-index: 10;
 	font-size: 8rem;
 	line-height: 9rem;
-	margin-top: 15.2rem;
+	margin-top: 8.2rem;
 	text-align: center;
 	color: var(--text-color);
 }
 
 .contacts {
+	z-index: 10;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -764,6 +771,7 @@ main .hero-footer {
 }
 
 .p-barra5 {
+	z-index: 10;
 	box-sizing: border-box;
 	width: 56rem;
 	max-width: 100%;
@@ -776,6 +784,7 @@ main .hero-footer {
 }
 
 .p-barra6 {
+	z-index: 10;
 	box-sizing: border-box;
 	width: 100%;
 	max-width: 70%;
@@ -791,6 +800,7 @@ main .hero-footer {
 	position: relative;
 	overflow: hidden;
 	width: 80%;
+	overflow: visible;
 	background: rgba(255, 255, 255, 0.25);
 	display: flex;
 	padding: 3.4rem 2.2rem;
@@ -818,7 +828,7 @@ main .hero-footer {
 	height: 100%;
 	width: 0.4rem;
 	top: 0px;
-	left: 0px;
+	left: -2rem;
 }
 
 .faq-text {
@@ -894,9 +904,15 @@ a.widget-image img {
 	html {
 		font-size: 50%;
 	}
+
 	iframe {
 		height: 30rem;
 	}
+
+	.list {
+		padding: 0rem 20rem;
+	}
+
 }
 
 @media (max-width: 1024px) {
@@ -911,6 +927,10 @@ a.widget-image img {
 		flex: 1 1 35rem;
 		/* margin: 2rem 10rem; */
 	}
+
+	.list {
+		padding: 0rem 12rem;
+	}
 }
 
 @media (max-width: 800px) {
@@ -919,6 +939,10 @@ a.widget-image img {
 	}
 	iframe {
 		height: 30rem;
+	}
+
+	.list {
+		padding: 0rem 8rem;
 	}
 }
 
@@ -939,7 +963,27 @@ a.widget-image img {
 		top: 9.5rem;
 	}
 	html {
-		font-size: 43%;
+		font-size: 41%;
+	}
+
+	.list::before {
+		background-size: 50rem;
+	}
+
+	.increase {
+		height: 22rem;
+	}
+
+	.article-info .article-texts p {
+		max-width: 47rem;
+	}
+
+	.article-info {
+		height: 50rem;
+	}
+
+	.article-texts h1 {
+		max-width: 50rem;
 	}
 
 	.benefits {
@@ -1004,14 +1048,21 @@ a.widget-image img {
 	}
 
 	.flex-cards > img {
-		width: 70%;
+		width: 100%;
 	}
+
+	.list {
+		padding: 0 6rem;
+	}
+
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
 	html {
 		font-size: 41%;
 	}
+
+	/* .article-info .article-texts p */
 
 	.article-info .article-texts p {
 		max-width: 47rem;
@@ -1050,15 +1101,64 @@ a.widget-image img {
 	}
 
 	.flex-cards > img {
-		width: 70%;
+		width: 100%;
+	}
+
+	.list {
+		padding: 0 2rem;
 	}
 }
 
 @media (max-width: 360px) {
 	html {
-		font-size: 38%;
+		font-size: 37%;
 	}
 	iframe {
 		height: 30rem;
+	}
+
+	.p-barra5 {
+		width: 44rem;
+	}
+
+	.increase {
+		height: 24rem;
+	}
+
+	.faq-text p {
+		max-width: 39rem;
+	}
+
+	.contacts {
+		flex-direction: column;
+	}
+
+	.section-instructions h1 {
+		font-size: 3rem;
+		margin: 0 1rem;
+		line-height: 3.6rem;
+	}
+
+	.p-barra4 {
+		width: 44rem;
+	}
+
+	.icon-email {
+		margin-top: 2rem !important;
+		margin-left: 3.3rem;
+	}
+
+	.icon-whats {
+		margin-top: 2rem !important;
+		margin-left: 3.3rem !important;
+		margin-right: 3rem !important;
+	}
+
+	.list {
+		padding: 0 2rem;
+	}
+
+	.list::before {
+		background-size: 42rem;
 	}
 }
