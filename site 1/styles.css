@@ -578,8 +578,6 @@ main .hero-footer {
 .section-warranty {
 	max-height: 100%;
 	background-image: url("./assets/IMG4.png");
-	/* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%),
-		url("./assets/lucrezia-carnelos-wQ9VuP_Njr4-unsplash@2x.png"); */
 	max-width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
