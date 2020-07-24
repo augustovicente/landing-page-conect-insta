@@ -209,26 +209,10 @@ iframe {
 
 .hero a {
 	z-index: 10;
-	/* margin-bottom: 2rem; */
 }
-
-/* .hero::before {
-	content: "";
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	bottom: 0px;
-	background-image: url("./assets/erik-lucatero-UrhMJ6kfKlo-unsplash-1.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	opacity: 0.1;
-} */
 
 main .hero .hero-title {
 	padding: 0px 20px;
-
 	max-width: 50rem;
 	z-index: 10;
 	font-size: 3rem;
@@ -311,7 +295,6 @@ main .hero-footer {
 	color: var(--text-color);
 }
 
-/* SECTION 3 */
 .section-benefits .logo-solo {
 	display: block;
 	margin-left: auto;
