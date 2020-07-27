@@ -434,23 +434,31 @@ section.section-plans {
       max-width: 24rem;
       width: 100%;
       border: 0;
-      margin-bottom: 6rem;
+      margin-bottom: 2rem;
       height: 0.5rem;
       background: transparent linear-gradient(190deg, #FFE427 0%, #CD0951 49%, #AB05C4 100%) 0% 0% no-repeat padding-box;
       border-radius: 25px;
+    }
+
+    span {
+      font-size: 2.2rem;
+      font-family: 'Arial Rounded MT';
+      color: #000000;
+      font-weight: bold;
     }
 
     h3.card-title {
       font-size: 2.8rem;
       text-align: center;
       font-weight: 300;
+      margin-bottom: 3rem;
       line-height: 2.8rem;
       color: $tertiary-color;
       text-align: center;
     }
 
     h2.card-content {
-      font-size: 4.2rem;
+      font-size: 3.4rem;
       text-align: center;
       font-weight: bold;
       margin-top: 1.8rem;

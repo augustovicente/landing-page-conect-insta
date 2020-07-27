@@ -485,7 +485,7 @@ section.section-plans div.card hr.p-barra2 {
   max-width: 24rem;
   width: 100%;
   border: 0;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   height: 0.5rem;
   background: transparent linear-gradient(190deg, #FCCF82 0%, #E32646 49%, #834D98 100%) 0% 0% no-repeat padding-box;
   border-radius: 25px;
@@ -495,19 +495,26 @@ section.section-plans div.card h3.card-title {
   font-size: 2.8rem;
   text-align: center;
   font-weight: 300;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   line-height: 2.8rem;
   color: #A017A5;
   text-align: center;
 }
 
+section.section-plans div.card span {
+  font-size: 2.2rem;
+  font-family: 'Arial Rounded MT';
+  color: #000000;
+  font-weight: bold;
+}
+
 section.section-plans div.card h2.card-content {
-  font-size: 4.2rem;
+  font-size: 2.8rem;
   text-align: center;
   font-weight: bold;
   margin-top: 1.8rem;
   line-height: 3.7rem;
-  color: #000000;
+  color: #A63F7A;
   font-family: 'Arial Rounded MT';
 }
 
@@ -531,7 +538,7 @@ section.section-plans div.card a.card-button {
   text-align: center;
   font-weight: bold;
   text-decoration: none;
-  background: #5F007B;
+  background: #A017A5;
   width: 24rem;
   max-width: 100%;
   color: #fafafa;
