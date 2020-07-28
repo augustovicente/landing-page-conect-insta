@@ -40,9 +40,9 @@ body {
   font-size: 1.6rem;
 }
 
-$primary-color: #35BE0C;
-$secondary-color: #5F007B;
-$tertiary-color: #A017A5;
+$primary-color: #0C58BE;
+$secondary-color: #09005D;
+$tertiary-color: #00126C;
 $title-color: #ffffff;
 $text-color: #fafafa;
 $text-black: #1E1E1E;
@@ -69,7 +69,7 @@ section.hero {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url("./assets/IMG1.png");
+  background-image: url("./assets/luke-chesser-CxBx_J3yp9g-unsplash-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -80,7 +80,7 @@ section.hero {
 
   h3.hero-title {
     padding: 10px 20px;
-    background: transparent linear-gradient(270deg, #BF4C7E 0%, #E32242 49%, #EE964B 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(90deg, #CE0059 0%, #C8416E 8%, #FAB173 100%) 0% 0% no-repeat padding-box;
     color: $title-color;
     border-radius: 0.7rem;
     max-width: 80rem;
@@ -179,7 +179,7 @@ section.hero {
     font-size: 4.2rem;
     line-height: 4.4rem;
     font-weight: bold;
-    color: #232323;
+    color: #000D5E;
     max-width: 46rem;
     text-align: center;
   }
@@ -311,7 +311,7 @@ section.hero {
 article.article-info {
   margin-top: 8rem;
   padding: 0 2rem;
-  background-image: url("./assets/IMG7.png");
+  background-image: url("./assets/georgia-de-lotz--UsJoNxLaNo-unsplash.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -329,8 +329,8 @@ article.article-info {
     color: $title-color;
   }
 
-  span.h1-yellow {
-    color: #FFE81D;
+  span.h1-blue {
+    color: #328BFF;
     letter-spacing: 0.235rem;
     font-family: 'Arial Rounded MT';
   }
@@ -439,7 +439,7 @@ section.section-plans {
       font-weight: 300;
       margin-bottom: 3rem;
       line-height: 2.8rem;
-      color: $tertiary-color;
+      color: $primary-color;
       text-align: center;
     }
 
@@ -456,7 +456,7 @@ section.section-plans {
       font-weight: bold;
       margin-top: 1.8rem;
       line-height: 3.7rem;
-      color: #A63F7A;
+      color: #000000;
       font-family: 'Arial Rounded MT';
     }
   
@@ -474,7 +474,7 @@ section.section-plans {
       text-align: center;
       font-weight: bold;
       text-decoration: none;
-      background: $tertiary-color;
+      background: $primary-color;
       width: 24rem;
       max-width: 100%;
       color: $text-color;
@@ -507,7 +507,7 @@ section.section-plans {
 section.section-warranty {
   max-height: 100%;
   position: relative;
-  // background-color: #ffffff83;
+  background-color: #fd363683;
 
   &::before {
     z-index: -1;
@@ -541,7 +541,7 @@ section.section-warranty {
       margin-left: 9rem;
       max-width: 62rem;
       line-height: 2.8rem;
-      color: #1B1B1B;
+      color: $title-color;
       text-align: left;
     }
       
@@ -566,7 +566,7 @@ section.section-instructions {
   max-height: 100%;
 
   h1 {
-    color: #141414;
+    color: $secondary-color;
     font-size: 4.8rem;
     max-width: 86rem;
     text-align: center;
@@ -586,7 +586,7 @@ section.section-instructions {
   }
 
   h2 {
-    color: #828282;
+    color: $secondary-color;
     font-weight: 300;
     max-width: 65rem;
     width: 100%;
@@ -594,6 +594,7 @@ section.section-instructions {
     line-height: 2.6rem;
     margin-bottom: 4rem;
     text-align: center;
+    opacity: 73%;
   }
 
   div.list {
@@ -605,7 +606,7 @@ section.section-instructions {
     height: 100%;
 
     p {
-      color: #141414;
+      color: $secondary-color;
       margin-top: 2.2rem;
       font-weight: 500;
       text-align: left;
@@ -617,7 +618,7 @@ section.section-instructions {
 
 
 section.section-faq {
-  background-image: url("./assets/IMG4.png");
+  background-image: url("./assets/white-smartphone-1851415-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -696,7 +697,7 @@ section.section-faq {
       width: 100%;
       border: 0;
       height: 100%;
-      background: transparent linear-gradient(190deg, #FCCF82 0%, #E32646 49%, #834D98 100%) 0% 0% no-repeat padding-box;
+      background: transparent linear-gradient(190deg, #FCCF82 0%, #E32646 96%, #834D98 100%) 0% 0% no-repeat padding-box;
       border-radius: 25px;
     }
 
@@ -713,6 +714,7 @@ section.section-faq {
       height: 2.2rem;
       max-width: 2rem;
       transform: rotate(180deg);
+      filter: saturate(100%);
     }
 
     div.faq-text {
