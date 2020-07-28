@@ -1034,6 +1034,14 @@ section.section-faq {
       font-size: 3rem !important;
     }
   }
+
+  img.icon-email {
+    width: 4rem !important;
+  }
+
+  img.icon-whats {
+    height: 4rem !important;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1114,8 +1122,8 @@ section.section-faq {
 
   .section-faq {
     h3 {
-      max-width: 38rem;
-      font-size: 3.1rem !important;
+      max-width: 27rem;
+      font-size: 2.1rem !important;
     }
 
     p {
@@ -1124,24 +1132,33 @@ section.section-faq {
 
     .contacts {
       strong {
-        margin-left: -2rem;        
+        margin-left: -3rem; 
+        // margin: 0 auto;       
         margin-top: 1rem;
         font-size: 1.4rem !important;
       }
+
+      img.icon-email {
+        margin-right: 4rem !important;
+        width: 3rem !important;
+      }
     
       img.icon-whats {
-        margin-right: 3rem !important;
+        margin-right: 4rem !important;
+        height: 3rem !important;
       }
     }
 
     .faq-text {
       top: 10.2rem !important;
+
+      
     }
   }
 }
 
 @media (max-width: 320px) {
 	html {
-		font-size: 31%;
+		font-size: 30%;
   }
 }

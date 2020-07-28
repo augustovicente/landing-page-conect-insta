@@ -1103,6 +1103,12 @@ section.section-faq div.faqs div.faq-text {
   section.hero h3 {
     font-size: 3rem !important;
   }
+  img.icon-email {
+    width: 4rem !important;
+  }
+  img.icon-whats {
+    height: 4rem !important;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1159,19 +1165,24 @@ section.section-faq div.faqs div.faq-text {
     height: 23rem !important;
   }
   .section-faq h3 {
-    max-width: 38rem;
-    font-size: 3.1rem !important;
+    max-width: 27rem;
+    font-size: 2.1rem !important;
   }
   .section-faq p {
     max-width: 45rem !important;
   }
   .section-faq .contacts strong {
-    margin-left: -2rem;
+    margin-left: -3rem;
     margin-top: 1rem;
     font-size: 1.4rem !important;
   }
+  .section-faq .contacts img.icon-email {
+    margin-right: 4rem !important;
+    width: 3rem !important;
+  }
   .section-faq .contacts img.icon-whats {
-    margin-right: 3rem !important;
+    margin-right: 4rem !important;
+    height: 3rem !important;
   }
   .section-faq .faq-text {
     top: 10.2rem !important;
@@ -1180,7 +1191,7 @@ section.section-faq div.faqs div.faq-text {
 
 @media (max-width: 320px) {
   html {
-    font-size: 31%;
+    font-size: 30%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
