@@ -76,7 +76,7 @@ section.hero {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url("./assets/luke-chesser-CxBx_J3yp9g-unsplash-1.png");
+  background-image: url("./assets/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -211,7 +211,6 @@ section.hero div.hero-text span.hero-footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 180rem;
   width: 100%;
   margin: 0 auto;
   -webkit-box-pack: center;
@@ -220,22 +219,18 @@ section.hero div.hero-text span.hero-footer {
 }
 
 .section-benefits .flex div.img-instagram {
-  -webkit-box-ordinal-group: 0 !important;
-      -ms-flex-order: -1 !important;
-          order: -1 !important;
-  min-width: 16% !important;
-  width: 100%;
-  margin-left: 50% !important;
-  margin-right: 50% !important;
+  min-width: 17vw;
+  max-width: 100%;
 }
 
 .section-benefits .flex div.img-instagram img {
   max-width: 30rem;
   width: 100%;
+  padding: 0 1rem;
 }
 
 .section-benefits .flex div.div-benefits {
-  margin-top: 4rem;
+  margin-top: 15rem;
   width: 38%;
   max-width: 100%;
   height: 100%;
@@ -252,6 +247,7 @@ section.hero div.hero-text span.hero-footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2rem;
 }
 
 .section-benefits .flex div.div-benefits div.benefits img#icons {
@@ -280,7 +276,7 @@ section.hero div.hero-text span.hero-footer {
   margin-left: 4.2rem;
   color: #1E1E1E;
   font-size: 2.1rem;
-  font-weight: lighter;
+  font-weight: 400;
   line-height: 2.6rem;
   text-align: left;
 }
@@ -289,7 +285,7 @@ section.hero div.hero-text span.hero-footer {
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
-  margin-top: 4rem;
+  margin-top: 15rem;
   width: 36%;
   max-width: 100%;
   height: 100%;
@@ -306,6 +302,7 @@ section.hero div.hero-text span.hero-footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 2rem;
 }
 
 .section-benefits .flex div.div-benefits2 div.benefits img#icons {
@@ -334,7 +331,7 @@ section.hero div.hero-text span.hero-footer {
   margin-left: 4.2rem;
   color: #1E1E1E;
   font-size: 2.1rem;
-  font-weight: lighter;
+  font-weight: 400;
   line-height: 2.6rem;
   text-align: left;
 }
@@ -390,7 +387,7 @@ article.article-info div.article-texts p {
   margin-top: 40px;
   max-width: 98rem;
   font-size: 2.6rem;
-  font-weight: lighter;
+  font-weight: 100;
   line-height: 2.9rem;
   text-align: center;
 }
@@ -572,7 +569,7 @@ section.section-plans div.payment img {
 section.section-warranty {
   max-height: 100%;
   position: relative;
-  background-color: #fd363683;
+  background-color: #00397ae0;
 }
 
 section.section-warranty::before {
@@ -583,11 +580,10 @@ section.section-warranty::before {
   right: 0px;
   left: 0px;
   bottom: 0px;
-  background-image: url("./assets/IMG3.png");
+  background-image: url("./assets/Imagem3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  opacity: 1;
 }
 
 section.section-warranty div.info-warranty {
@@ -699,7 +695,7 @@ section.section-instructions div.list p {
 }
 
 section.section-faq {
-  background-image: url("./assets/white-smartphone-1851415-1.png");
+  background-image: url("./assets/backgroundfaq.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -729,7 +725,7 @@ section.section-faq h2 {
   margin-top: 8.2rem;
   line-height: 7.9rem;
   text-align: center;
-  color: #1E1E1E;
+  color: #ffffff;
 }
 
 section.section-faq h1 {
@@ -737,7 +733,7 @@ section.section-faq h1 {
   line-height: 9rem;
   margin-top: 8.2rem;
   text-align: center;
-  color: #1E1E1E;
+  color: #ffffff;
 }
 
 section.section-faq div.contacts {
@@ -758,15 +754,22 @@ section.section-faq div.contacts strong {
   line-height: 4.3rem;
   letter-spacing: 0;
   font-weight: 400;
+  color: #ffffff;
 }
 
 section.section-faq div.contacts img.icon-email {
   width: 6rem;
+  max-width: 100%;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
   margin-right: 3rem;
 }
 
 section.section-faq div.contacts img.icon-whats {
   height: 5.6rem;
+  max-height: 100%;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
   margin-right: 2.8rem;
   margin-left: 6rem;
 }
@@ -776,7 +779,7 @@ section.section-faq div.faqs {
   z-index: 9999;
   width: 106rem;
   max-width: 100%;
-  background: #ffffff86;
+  background: #ffffffc7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -805,6 +808,7 @@ section.section-faq div.faqs hr.p-barra6 {
 section.section-faq div.faqs h3 {
   font-size: 2.8rem;
   font-size: bold;
+  color: #00126C;
 }
 
 section.section-faq div.faqs img.arrow {
@@ -830,7 +834,9 @@ section.section-faq div.faqs div.faq-text {
   width: 100%;
   height: 10rem;
   font-size: 2rem;
+  font-weight: 400;
   line-height: 2.4rem;
+  color: #00126C;
 }
 
 .show {
@@ -929,6 +935,8 @@ section.section-faq div.faqs div.faq-text {
   .flex .img-instagram {
     min-width: 22% !important;
     width: 100%;
+    margin-left: 50% !important;
+    margin-right: 50% !important;
   }
   .flex .div-benefits {
     margin-top: unset !important;
@@ -1024,6 +1032,11 @@ section.section-faq div.faqs div.faq-text {
 @media (max-width: 657px) {
   html {
     font-size: 41%;
+  }
+  .flex div.img-instagram {
+    min-width: 30% !important;
+    margin-left: 50% !important;
+    margin-right: 50% !important;
   }
   .article-info {
     height: 50rem;

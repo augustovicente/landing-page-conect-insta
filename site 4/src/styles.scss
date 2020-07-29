@@ -69,7 +69,7 @@ section.hero {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url("./assets/luke-chesser-CxBx_J3yp9g-unsplash-1.png");
+  background-image: url("./assets/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -188,30 +188,29 @@ section.hero {
     padding: 0 2rem;
     display: flex;
     flex-wrap: wrap;
-    max-width: 180rem;
+    // max-width: 180rem;
     width: 100%;
     margin: 0 auto;
     justify-content: center;
 
     div.img-instagram {
-      order: -1 !important;
-      min-width: 16% !important;
-      width: 100%;
-      margin-left: 50% !important;
-      margin-right: 50% !important;
-
-      // order: 1;
-      // min-width: 17vw;
+      // min-width: 16% !important;
+      
+      // order: -1;
+      min-width: 17vw;
+      max-width: 100%;
+      // width: 100%;
       // margin: 0 auto;
 
       img {
         max-width: 30rem;
         width: 100%;
+        padding: 0 1rem;
       }
     }
 
     div.div-benefits {
-      margin-top: 4rem;
+      margin-top: 15rem;
       width: 38%;
       max-width: 100%;
       height: 100%;
@@ -220,10 +219,10 @@ section.hero {
         overflow: hidden;
         width: 58rem;
         max-width: 100%;
-
         height: 15rem;
         display: flex;
         align-items: center;
+        margin-top: 2rem;
 
         img#icons {
           max-width: 7rem;
@@ -249,7 +248,7 @@ section.hero {
           margin-left: 4.2rem;
           color: $text-black;
           font-size: 2.1rem;
-          font-weight: lighter;
+          font-weight: 400;
           line-height: 2.6rem;
           text-align: left;
         }
@@ -258,13 +257,11 @@ section.hero {
 
     div.div-benefits2 {
       order: 1;
-      // padding: 0 2rem;
-      margin-top: 4rem;
+      margin-top: 15rem;
       width: 36%;
       max-width: 100%;
-      // max-width: 100%;
-
       height: 100%;
+      // margin-top: 2rem;
       
       div.benefits {
         overflow: hidden;
@@ -273,6 +270,7 @@ section.hero {
         height: 15rem;
         display: flex;
         align-items: center;
+        margin-top: 2rem;
 
         img#icons {
           max-width: 7rem;
@@ -298,7 +296,7 @@ section.hero {
           margin-left: 4.2rem;
           color: $text-black;
           font-size: 2.1rem;
-          font-weight: lighter;
+          font-weight: 400;
           line-height: 2.6rem;
           text-align: left;
         }
@@ -348,7 +346,7 @@ article.article-info {
       margin-top: 40px;
       max-width: 98rem;
       font-size: 2.6rem;
-      font-weight: lighter;
+      font-weight: 100;
       line-height: 2.9rem;
       text-align: center;
     }
@@ -507,7 +505,7 @@ section.section-plans {
 section.section-warranty {
   max-height: 100%;
   position: relative;
-  background-color: #fd363683;
+  background-color: #00397ae0;
 
   &::before {
     z-index: -1;
@@ -517,11 +515,11 @@ section.section-warranty {
     right: 0px;
     left: 0px;
     bottom: 0px;
-    background-image: url("./assets/IMG3.png");
+    background-image: url("./assets/Imagem3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 1;
+    // opacity: 1;
   }
 
   div.info-warranty {
@@ -618,7 +616,7 @@ section.section-instructions {
 
 
 section.section-faq {
-  background-image: url("./assets/white-smartphone-1851415-1.png");
+  background-image: url("./assets/backgroundfaq.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -638,7 +636,7 @@ section.section-faq {
     margin-top: 8.2rem;
     line-height: 7.9rem;
     text-align: center;
-    color: $text-black;
+    color: $title-color;
   }
 
   h1 {
@@ -646,7 +644,7 @@ section.section-faq {
     line-height: 9rem;
     margin-top: 8.2rem;
     text-align: center;
-    color: $text-black;
+    color: $title-color;
   }
 
   div.contacts {
@@ -660,15 +658,20 @@ section.section-faq {
       line-height: 4.3rem;
       letter-spacing: 0;
       font-weight: 400;
+      color: $title-color;
     }
   
     img.icon-email {
       width: 6rem;
+      max-width: 100%;
+      filter: invert(100%);
       margin-right: 3rem;
     }
   
     img.icon-whats {
       height: 5.6rem;
+      max-height: 100%;
+      filter: invert(100%);
       margin-right: 2.8rem;
       margin-left: 6rem;
     }
@@ -679,7 +682,7 @@ section.section-faq {
     z-index: 9999;
     width: 106rem;
     max-width: 100%;
-    background: #ffffff86;
+    background: #ffffffc7;
     display: flex;
     padding: 2rem 2.2rem;
     border-radius: 0px 18px 18px 0px;
@@ -704,6 +707,7 @@ section.section-faq {
     h3 {
       font-size: 2.8rem;
       font-size: bold;
+      color: $tertiary-color;
     }
     
     img.arrow {
@@ -727,7 +731,9 @@ section.section-faq {
       width: 100%;
       height: 10rem;
       font-size: 2rem;
+      font-weight: 400;
       line-height: 2.4rem;
+      color: $tertiary-color;
     }
   }
 }
@@ -825,8 +831,8 @@ section.section-faq {
       // order: -1 !important;
       min-width: 22% !important;
       width: 100%;
-      // margin-left: 50% !important;
-      // margin-right: 50% !important;
+      margin-left: 50% !important;
+      margin-right: 50% !important;
     }
 
     .div-benefits {
@@ -930,6 +936,14 @@ section.section-faq {
 @media (max-width: 657px) {
   html {
     font-size: 41%;
+  }
+
+  .flex {
+    div.img-instagram {
+      min-width: 30% !important;
+      margin-left: 50% !important;
+      margin-right: 50% !important;
+    }
   }
 
   .article-info {
