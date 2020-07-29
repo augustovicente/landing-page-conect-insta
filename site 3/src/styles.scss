@@ -100,6 +100,19 @@ section.hero {
     color: $title-color;
     margin-top: 1.2rem;
   }
+  h1.cartao-subtitle {
+    z-index: 10;
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 57rem;
+    line-height: 4rem;
+    text-align: center;
+    color: $title-color;
+    margin-top: 1.2rem;
+    .green-wpp{
+      color: #00FF66;
+    }
+  }
 
   .iframe-video {
     z-index: 10;
