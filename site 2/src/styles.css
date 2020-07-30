@@ -92,9 +92,6 @@ section.hero {
     z-index: 10;
     margin-top: 2rem; }
   section.hero a.btn-buy {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -365,9 +362,6 @@ section.section-plans {
       color: #A63F7A;
       font-family: 'Arial Rounded MT'; }
     section.section-plans div.card a.card-button {
-      -webkit-appearance: button;
-      -moz-appearance: button;
-      appearance: button;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -524,12 +518,12 @@ section.section-faq {
       letter-spacing: 0;
       font-weight: 400; }
     section.section-faq div.contacts img.icon-email {
-      width: 6rem;
-      margin-right: 3rem; }
+      width: 4rem;
+      margin-right: 2rem; }
     section.section-faq div.contacts img.icon-whats {
-      height: 5.6rem;
-      margin-right: 2.8rem;
-      margin-left: 6rem; }
+      height: 4rem;
+      margin-right: 2rem;
+      margin-left: 3rem; }
   section.section-faq div.faqs {
     position: relative;
     z-index: 9999;
