@@ -247,7 +247,7 @@ section.hero {
 article.article-info {
   margin-top: 8rem;
   padding: 0 2rem;
-  background-image: url("./assets/IMG7.png");
+  background-image: url("./assets/IMG3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -409,7 +409,7 @@ section.section-warranty {
     right: 0px;
     left: 0px;
     bottom: 0px;
-    background-image: url("./assets/IMG3.png");
+    background-image: url("./assets/IMG4.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -487,7 +487,7 @@ section.section-instructions {
       line-height: 2.8rem; }
 
 section.section-faq {
-  background-image: url("./assets/IMG4.png");
+  background-image: url("./assets/IMG5.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
