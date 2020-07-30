@@ -40,12 +40,7 @@ body {
   font-size: 1.6rem;
 }
 
-$primary-color: #35BE0C;
-$secondary-color: #5F007B;
-$tertiary-color: #A017A5;
 $title-color: #ffffff;
-$text-color: #fafafa;
-$text-black: #1E1E1E;
 
 body,
 input,
@@ -207,15 +202,11 @@ section.hero {
     justify-content: center;
 
     div.img-instagram {
-      order: -1 !important;
-      min-width: 16% !important;
-      width: 100%;
-      margin-left: 50% !important;
-      margin-right: 50% !important;
+    
 
-      // order: 1;
-      // min-width: 17vw;
-      // margin: 0 auto;
+      order: 1;
+      min-width: 17vw;
+      margin: 0 auto;
 
       img {
         max-width: 30rem;
@@ -224,7 +215,7 @@ section.hero {
     }
 
     div.div-benefits {
-      margin-top: 4rem;
+      margin-top: 20rem;
       width: 38%;
       max-width: 100%;
       height: 100%;
@@ -271,12 +262,9 @@ section.hero {
 
     div.div-benefits2 {
       order: 1;
-      // padding: 0 2rem;
-      margin-top: 4rem;
+      margin-top: 20rem;
       width: 36%;
       max-width: 100%;
-      // max-width: 100%;
-
       height: 100%;
       
       div.benefits {
@@ -324,7 +312,7 @@ section.hero {
 article.article-info {
   margin-top: 8rem;
   padding: 0 2rem;
-  background-image: url("./assets/IMG3.png");
+  background-image: url("./assets/IMG2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -337,13 +325,14 @@ article.article-info {
     font-size: 5.2rem;
     line-height: 5.8rem;
     font-weight: bold;
-    max-width: 80rem;
+    max-width: 82rem;
     text-align: center;
-    color: $title-color;
+    color: #000000;
   }
 
-  span.h1-yellow {
-    color: #FFE81D;
+  span.h1-red {
+    color: #EE0038;
+    font-weight: bold;
     letter-spacing: 0.235rem;
     font-family: 'Arial Rounded MT';
   }
@@ -354,7 +343,7 @@ article.article-info {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color: $title-color;
+    color: #000000;
 
     p {
       z-index: 10;
@@ -374,7 +363,7 @@ article.article-info {
     border: 0;
     margin-top: 3rem;
     height: 0.5rem;
-    background: white;
+    background: transparent linear-gradient(10deg, #FFE427 0%, #CD0951 49%, #AB05C4 100%) 0% 0% no-repeat padding-box;
     border-radius: 25px;
   }
 }
@@ -411,7 +400,6 @@ section.section-plans {
       max-width: 300rem;
       width: 100%;
       margin: 3rem 2rem;
-
     }
 
     img {
@@ -452,7 +440,7 @@ section.section-plans {
       font-weight: 300;
       margin-bottom: 3rem;
       line-height: 2.8rem;
-      color: $tertiary-color;
+      color: #BE3465;
       text-align: center;
     }
 
@@ -469,7 +457,7 @@ section.section-plans {
       font-weight: bold;
       margin-top: 1.8rem;
       line-height: 3.7rem;
-      color: #A63F7A;
+      color: #DE284B;
       font-family: 'Arial Rounded MT';
     }
   
@@ -487,7 +475,7 @@ section.section-plans {
       text-align: center;
       font-weight: bold;
       text-decoration: none;
-      background: $tertiary-color;
+      background: #DE284B;
       width: 24rem;
       max-width: 100%;
       color: $text-color;
@@ -520,22 +508,10 @@ section.section-plans {
 section.section-warranty {
   max-height: 100%;
   position: relative;
-  // background-color: #ffffff83;
-
-  &::before {
-    z-index: -1;
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    background-image: url("./assets/IMG4.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 1;
-  }
+  background-image: url("./assets/IMG3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   div.info-warranty {
     height: 46rem;
@@ -628,9 +604,8 @@ section.section-instructions {
   }
 }
 
-
 section.section-faq {
-  background-image: url("./assets/IMG5.png");
+  background-image: url("./assets/IMG4.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -833,11 +808,11 @@ section.section-faq {
 
   .flex {
     .img-instagram {
-      // order: -1 !important;
+      order: -1 !important;
       min-width: 22% !important;
       width: 100%;
-      // margin-left: 50% !important;
-      // margin-right: 50% !important;
+      margin-left: 50% !important;
+      margin-right: 50% !important;
     }
 
     .div-benefits {
