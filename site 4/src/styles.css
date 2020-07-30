@@ -14,7 +14,7 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, img, strong, form, 
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, sans-serif, Calibri, Arial;
 }
 
 a {
@@ -501,12 +501,12 @@ section.section-plans div.card h3.card-title {
 section.section-plans div.card span {
   font-size: 2.2rem;
   font-family: 'Arial Rounded MT';
-  color: #000000;
+  color: #0C58BE;
   font-weight: bold;
 }
 
 section.section-plans div.card h2.card-content {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   text-align: center;
   font-weight: bold;
   margin-top: 1.8rem;
