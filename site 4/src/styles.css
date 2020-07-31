@@ -110,6 +110,21 @@ section.hero h1.hero-subtitle {
   margin-top: 1.2rem;
 }
 
+section.hero h1.cartao-subtitle {
+  z-index: 10;
+  font-size: 4rem;
+  font-weight: bold;
+  max-width: 57rem;
+  line-height: 4rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 1.2rem;
+}
+
+section.hero h1.cartao-subtitle .green-wpp {
+  color: #00FF66;
+}
+
 section.hero div.iframe-video {
   z-index: 1;
   margin-top: 2rem;
