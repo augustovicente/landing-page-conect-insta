@@ -130,9 +130,6 @@ section.hero div.iframe-video .frame-video {
 }
 
 section.hero a.btn-buy {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -530,9 +527,6 @@ section.section-plans div.card h2.card-content {
 }
 
 section.section-plans div.card a.card-button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -772,20 +766,20 @@ section.section-faq div.contacts strong {
 }
 
 section.section-faq div.contacts img.icon-email {
-  width: 6rem;
+  width: 4rem;
   max-width: 100%;
+  margin-right: 2rem;
   -webkit-filter: invert(100%);
           filter: invert(100%);
-  margin-right: 3rem;
 }
 
 section.section-faq div.contacts img.icon-whats {
-  height: 5.6rem;
+  height: 4rem;
+  margin-right: 2rem;
+  margin-left: 3rem;
   max-height: 100%;
   -webkit-filter: invert(100%);
           filter: invert(100%);
-  margin-right: 2.8rem;
-  margin-left: 6rem;
 }
 
 section.section-faq div.faqs {
