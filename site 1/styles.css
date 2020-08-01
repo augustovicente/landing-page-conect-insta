@@ -258,9 +258,9 @@ button:focus {
 }
 
 main .hero a {
-	-webkit-appearance: button;
+	/* -webkit-appearance: button;
 	-moz-appearance: button;
-	appearance: button;
+	appearance: button; */
 	text-decoration: none;
 	display: flex;
 	justify-content: center;
@@ -506,10 +506,20 @@ main .hero-footer {
 	color: var(--primary-color);
 }
 
+section.hero div.iframe-video .frame-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .flex-cards .card-button {
-	-webkit-appearance: button;
+	/* -webkit-appearance: button;
 	-moz-appearance: button;
-	appearance: button;
+	appearance: button; */
 	text-align: center;
 	font-weight: bold;
 	text-decoration: none;
@@ -530,6 +540,16 @@ main .hero-footer {
 	height: 4.8rem;
 	max-height: 100%;
 	transition: filter 0.2s;
+}
+section.section-plans div.payment {
+	margin: 0 auto 4rem auto;
+}
+
+section.section-plans div.payment img {
+	display: block;
+	margin: 0 auto;
+	width: 94.6rem;
+	max-width: 100%;
 }
 
 .flex-cards .card-button:hover {
@@ -1086,6 +1106,10 @@ a.widget-image img {
 		height: 30rem;
 	}
 
+	.section-plans .payment {
+		width: 100%;
+	}
+	
 	.p-barra5 {
 		width: 44rem;
 	}
