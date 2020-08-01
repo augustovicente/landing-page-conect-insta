@@ -516,6 +516,34 @@ section.hero div.iframe-video .frame-video {
 	height: 100%;
 }
 
+.widget-image2 {
+	height: 7rem !important;
+	width: 7rem !important;
+	display: unset !important;
+	margin-top: unset !important;
+	background-color: unset !important;
+}
+
+.widget-image2 img {
+	height: 7rem;
+	width: 7rem;
+}
+
+section.hero h1.cartao-subtitle {
+	z-index: 10;
+	font-size: 4rem;
+	font-weight: bold;
+	max-width: 57rem;
+	line-height: 4rem;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 1.2rem;
+}
+  
+section.hero h1.cartao-subtitle .green-wpp {
+	color: #00FF66;
+}
+
 .flex-cards .card-button {
 	/* -webkit-appearance: button;
 	-moz-appearance: button;
